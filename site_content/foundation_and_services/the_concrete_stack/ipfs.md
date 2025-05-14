@@ -24,7 +24,7 @@ IPFS is about data storage in distributed, decentralised networks.
 
 ## IPFS overview
 
-The [Inter-Planetary File System (IPFS)](https://ipfs.tech/) provides a distributed and decentralised approach to data storage[^bittorrent].  We need a way to store and retrieve data in a decentralised network.  In centralised systems, the name of a data source commonly reflects its location eg a file location, or a web-address. This approach is not appropriate for distributed and decentralised systems. In an IPFS network, data is immutable (it cannot change); it can be stored and replicated, as often as desired, on any node.  The name of the data represents its content.  Users can request that content from anywhere.  As long as one connected node has it, it can be recovered.
+The [Inter-Planetary File System (IPFS)](https://ipfs.tech/) provides a distributed and decentralised approach to data storage[^bittorrent].  We need a way to store and retrieve data in a decentralised network.  In centralised systems, the name of a data source commonly reflects its location eg file names, or web-address. This approach is not appropriate for distributed and decentralised systems. In an IPFS network, data is immutable (it cannot change); it can be stored and replicated, as often as desired, on any node.  The name of the data represents its content.  Users can request that content from anywhere.  As long as one connected node has it, it can be recovered.
 
 [^bittorrent]:
     As a mental short-cut for some people 'of a certain age', IPFS has many similarties with Bittorrent file sharing from the pre-Spotify and Netflix era.  A data source is named, and can be requested, and served, from anywhere across a distributed network. 
@@ -35,7 +35,7 @@ A block of stored data might represent a document (information), but it might al
 
 ![same block of data stored at two different nodes in a network](../../../../images/current/lettered_nodes_with_data_and_car.png)
 
-To use the example scenario depicted above, the car node (A) has produced and locally stored some LIDAR sensor data (1 - of potentially millions of blocks of data).  This block of data has been replicated at another node (F). There are many reasons why this might be desirable.  For example:
+To use the example scenario depicted above, the car node (A) has produced and locally stored some LIDAR sensor data labelled '1'(this may exist alongside potentially millions of other blocks of data).  This block of data has been replicated at another node (F). There are many reasons why this might be desirable.  For example:
 
 - **Replication for long-term use**.  People might have a good use for the data, but the car only has so much storage capacity.  The car data will be over-written shortly.
 - **Replication for risk management**.  The data has value, but the car might crash destroying the data.  The data is replicated elsewhere (potentially many times).

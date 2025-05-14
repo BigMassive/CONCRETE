@@ -14,6 +14,8 @@ Risk management associated with chips
 
 Hardware can never be fully trusted - this isn't a binary trusted / un-trusted thing - this is about risk (again).
 
+Add a section about FPGAs / FPGA-like things.
+
 Is it what I think it is?
 
 Has it been tampered with?

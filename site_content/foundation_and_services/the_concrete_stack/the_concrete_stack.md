@@ -22,25 +22,25 @@ The [basic user needs]({% link site_content/foundation_and_services/some_basic_n
 
 The diagram below is a technical sketch of the make-up of an abstract node and some key ancillary functions. This should not be taken literally. The components shown act as a shorthand description; we should really add '-like' at the end of most of them. This is just a starting point for refinement.  The need for many of these components can be deduced directly from the basic user needs; some appear here out-of-the blue and are introduced later. From a major technical sub-component perspective though, **this is it**.  This section provides introductions to these components individually and then provides more insight into bringing them together. The next socio-technical section does not add more components, it adds detail about how this would be configured and used.  
 
-![stack of concrete components](../../../../images/current/CONCRETE_stack.png)
+![stack of concrete components](../../../../images/current/CONCRETE_stack_2.png)
 
-| Component                                                                                                          | Description                                                                  |
-|:-------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [Trusted Hardware]({% link site_content/foundation_and_services/the_concrete_stack/trusted_hardware.md %})         | The physical hardware and associated risks.                                 |
-| [&#174; seL4]({% link site_content/foundation_and_services/the_concrete_stack/seL4.md %})                          | The world's most highly assured operating system kernel.                     |
-| [Ouroboros]({% link site_content/foundation_and_services/the_concrete_stack/ouroboros.md %})                       | Networking.                                                                  |
-| [IPFS]({% link site_content/foundation_and_services/the_concrete_stack/ipfs.md %})                                 | Distributed, decentralised data storage.                                     |
-| [IOTA]({% link site_content/foundation_and_services/the_concrete_stack/iota.md %})                                 | Distributed ledger and compute.                                              |
-| [Wallet]({% link site_content/foundation_and_services/the_concrete_stack/wallet.md %})                             | Somewhere to store cryptographic keys etc.                                   |
-| [Matrix]({% link site_content/foundation_and_services/the_concrete_stack/matrix.md %})                             | Distributed, decentralised communications media.                             |
-| [Security and Risk]({% link site_content/foundation_and_services/the_concrete_stack/security_and_risk.md %})       | Applications associated with security and risk.                              |
-| [Spacetime Management]({% link site_content/foundation_and_services/the_concrete_stack/spacetime_management.md %}) | Infrastructure and processes associated with clock synchronisation           |
-| [Dongles]({% link site_content/foundation_and_services/the_concrete_stack/dongles.md %})                           | Non-nodal devices for users and security.                                    |
-| [HQDM]({% link site_content/foundation_and_services/the_concrete_stack/hqdm.md %})                                 | The ontology - the ultimate tool for data quality and interoperability.      |
-| [HMI Best Practice]({% link site_content/foundation_and_services/the_concrete_stack/hmi_best_practices.md %})      | Human Machine Interface standards - crucial for efficiency and effectiveness |
+| Component                                                                                                                                                    | Description                                                                  |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| [Trusted Hardware]({% link site_content/foundation_and_services/the_concrete_stack/trusted_hardware.md %})                                                   | The physical hardware and associated risks.                                  |
+| [&#174; seL4]({% link site_content/foundation_and_services/the_concrete_stack/seL4.md %})                                                                    | The world's most highly assured operating system kernel.                     |
+| [Ouroboros]({% link site_content/foundation_and_services/the_concrete_stack/ouroboros.md %})                                                                 | Networking.                                                                  |
+| [IPFS]({% link site_content/foundation_and_services/the_concrete_stack/ipfs.md %})                                                                           | Distributed, decentralised data storage.                                     |
+| [IOTA]({% link site_content/foundation_and_services/the_concrete_stack/iota.md %})                                                                           | Distributed ledger and compute.                                              |
+| [Wallet]({% link site_content/foundation_and_services/the_concrete_stack/wallet.md %})                                                                       | Somewhere to store cryptographic keys etc.                                   |
+| [Matrix]({% link site_content/foundation_and_services/the_concrete_stack/matrix.md %})                                                                       | Distributed, decentralised communications media.                             |
+| [Security and Risk]({% link site_content/foundation_and_services/the_concrete_stack/security_and_risk.md %})                                                 | Applications associated with security and risk.                              |
+| [Spacetime Management]({% link site_content/foundation_and_services/the_concrete_stack/spacetime_management.md %})                                           | Infrastructure and processes associated with clock synchronisation           |
+| [Dongles]({% link site_content/foundation_and_services/the_concrete_stack/dongles.md %})                                                                     | Non-nodal devices for users and security.                                    |
+| [HMI Best Practice]({% link site_content/foundation_and_services/the_concrete_stack/hmi_best_practice.md %})                                                 | Human Machine Interface standards - crucial for efficiency and effectiveness |
+| [Maths Standards]({% link site_content/foundation_and_services/the_concrete_stack/maths_standards.md %})                                                     | 1.0 + 1.0 should always equal 2.0 no matter where it is calculated          |
+| [Single 4D Ontological Data Model Approach]({% link site_content/foundation_and_services/the_concrete_stack/single_4d_ontological_data_model_approach.md %}) | The ultimate in data interoperability and quality                            |
 
 
-<span>To-do</span>{: .label .label-blue} (Re)consider whether to add 'maths standards' to the core stack diagram.  We don't want the answers to yes/no fire-the-missile questions to vary depending on where they were carried out.
 
 
 

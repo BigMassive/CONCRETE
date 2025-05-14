@@ -28,7 +28,7 @@ Although the basic functions of a wallet are well understood, the wider function
 -  Oversight and monitoring.  Can boss-characters monitor key holdings of users? 
 
 [^fhe]:
-    [Homomorhic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) techniques do enable algorithms to be run directly on un-decrypted cyphertext.  While seemingly amazing, these algorithms come a great efficiency cost (being of-the-order-of 1,000,000x less efficient than their non-homomorphic equivalents). 
+    [Homomorhic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) techniques do enable algorithms to be run directly on un-decrypted cyphertext.  While seemingly amazing, the efficiency of these algorithms can be of-the-order of 1,000,000x worse than their non-homomorphic equivalents - this can often represent a substantial performance penalty. 
 
 
 
