@@ -7,7 +7,7 @@ nav_order: 13
 {: .fs-9 .no_toc }
 
 
-What data 'means' is crucial
+Being clear about what data 'means' is crucial
 {: .fs-6 .fw-300 }
 ----
 
